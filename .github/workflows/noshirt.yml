@@ -1,4 +1,4 @@
-name: CI
+name: No T-Shirts for you!
 
 on:
   pull_request:
@@ -15,3 +15,6 @@ jobs:
         comment: "You will never get that T-Shirt! 👕🚫"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: "jessfraz/branch-cleanup-action@master"
+      env:
+        NO_BRANCH_DELETED_EXIT_CODE: 0
