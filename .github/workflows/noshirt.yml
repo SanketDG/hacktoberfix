@@ -12,6 +12,6 @@ jobs:
     steps:
     - uses: superbrothers/close-pull-request@v2
       with:
-        comment: "You will never get that T-Shirt!"
+        comment: "You will never get that T-Shirt! 👕🚫"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
