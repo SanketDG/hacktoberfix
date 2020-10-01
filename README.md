@@ -1,4 +1,4 @@
 # Hacktoberfix!
 
-You will never get that T-shirt!
+I sure will!
 
